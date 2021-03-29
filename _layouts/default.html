@@ -60,6 +60,7 @@
         font-size: 0.8rem;
       }
     </style>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
   </head>
 
   <body>
@@ -71,13 +72,20 @@
             <img src="{{ site.baseurl }}/images/soosiana-logo.svg" alt="Logo" />
             &nbsp;Soosiana
           </a>
-          <span class="navbar-burger burger" data-target="navbarMenu">
+
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+
+          <!-- <span class="navbar-burger burger" data-target="navbarMenu">
             <span></span>
             <span></span>
             <span></span>
-          </span>
+          </span> -->
         </div>
-        <div id="navbarMenu" class="navbar-menu">
+        <div id="navbarMenu" class="navbar-menu" :class="{ 'is-active': openNav }">
           <div class="navbar-end">
             <a
               class="navbar-item is-size-5 has-text-weight-semibold"
