@@ -65,26 +65,18 @@
 
   <body>
     <!-- START NAV -->
-    <!-- <nav class="navbar"> -->
-    <nav class="navbar is-primary {% if site.fixed_navbar %} is-fixed-{{ site.fixed_navbar }} {% endif %}" x-data="{ openNav: false }">
+    <nav class="navbar" x-data="{ openNav: false }">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item is-size-5 has-text-weight-semibold" href="{{ site.baseurl }}">
             <img src="{{ site.baseurl }}/images/soosiana-logo.svg" alt="Logo" />
             &nbsp;Soosiana
           </a>
-
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
-
-          <!-- <span class="navbar-burger burger" data-target="navbarMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span> -->
         </div>
         <div id="navbarMenu" class="navbar-menu" :class="{ 'is-active': openNav }">
           <div class="navbar-end">
