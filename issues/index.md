@@ -1,8 +1,12 @@
-# Soosiana
+---
+title: Issues
+---
 
-> Hungarian Malacological Journal
+## Latest issue
 
-## Volumes
+[Soosiana Volume 33, 2016](https://soosiana.github.io/volume-33/)
+
+## Archive
 
 [Soosiana Volume 1, 1973](https://soosiana.github.io/volume-1/)
 
