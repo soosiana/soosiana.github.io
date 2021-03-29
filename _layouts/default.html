@@ -65,7 +65,8 @@
 
   <body>
     <!-- START NAV -->
-    <nav class="navbar">
+    <!-- <nav class="navbar"> -->
+    <nav class="navbar is-primary {% if site.fixed_navbar %} is-fixed-{{ site.fixed_navbar }} {% endif %}" x-data="{ openNav: false }">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item is-size-5 has-text-weight-semibold" href="{{ site.baseurl }}">
