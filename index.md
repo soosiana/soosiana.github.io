@@ -1,5 +1,5 @@
 ---
-title: Soosiana
+title: Home
 subtitle: Hungarian Malacological Journal
 ---
 
