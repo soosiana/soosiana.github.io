@@ -28,14 +28,13 @@
     />
     <meta
       property="og:image"
-      content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/card-image.png{% endif %}"
+      content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/images/soosiana-logo.png{% endif %}"
     />
     <meta property="og:type" content="website" />
     <meta property="og:image:width" content="400" />
     <meta property="og:image:height" content="300" />
     <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta name="twitter:site" content="@borealbirds" />
     <meta
       name="twitter:title"
       content="{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title }}"
@@ -61,6 +60,7 @@
       }
     </style>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <script src="https://cdn.usefathom.com/script.js" data-site="QAICWLBL" defer></script>
   </head>
 
   <body>
