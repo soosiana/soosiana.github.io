@@ -4,10 +4,12 @@ title: Issues
 
 ### Latest issue
 
-- [Soosiana Volume 33, 2016](https://soosiana.github.io/issues/33/)
+- [Soosiana Volume 35, 2021](https://soosiana.github.io/issues/35/)
 
 ### Archive
 
+- [Soosiana Volume 35, 2021](https://soosiana.github.io/issues/35/)
+- [Soosiana Volume 34, 2020](https://soosiana.github.io/issues/34/)
 - [Soosiana Volume 33, 2016](https://soosiana.github.io/issues/33/)
 - [Soosiana Volume 32, 2013](https://soosiana.github.io/issues/32/)
 - [Soosiana Volume 30-31, 2009-2010](https://soosiana.github.io/issues/30-31/)
